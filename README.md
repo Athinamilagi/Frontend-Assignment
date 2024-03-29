@@ -20,32 +20,36 @@ Frontend Assignment/
 │
 ├── index.html
 ├── index.js
+│
 └── assets/
-├── css/
-│ └── styles.css
-├── images/
-│ ├── btn--left-arrow.svg
-│ ├── btn--right-arrow.svg
-│ ├── Group.svg
-│ ├── img1.png
-│ ├── img2.png
-│ ├── img3.png
-│ ├── img4.png
-│ ├── logo.png
-│ └── wave.png
-└── Poppins/
-├── poppins-black-demo.html
-├── poppins-black-webfont.woff
-├── poppins-black-webfont.woff2
-├── poppins-bold-demo.html
-├── poppins-bold-webfont.woff
-├── poppins-bold-webfont.woff2
-├── poppins-medium-demo.html
-├── poppins-medium-webfont.woff
-├── poppins-medium-webfont.woff2
-├── poppins-semibold-demo.html
-├── poppins-semibold-webfont.woff
-├── poppins-semibold-webfont.woff2
+    ├── css/
+    │   └── styles.css
+    │
+    ├── images/
+    │   ├── btn--left-arrow.svg
+    │   ├── btn--right-arrow.svg
+    │   ├── Group.svg
+    │   ├── img1.png
+    │   ├── img2.png
+    │   ├── img3.png
+    │   ├── img4.png
+    │   ├── logo.png
+    │   └── wave.png
+    │
+    └── Poppins/
+        ├── poppins-black-demo.html
+        ├── poppins-black-webfont.woff
+        ├── poppins-black-webfont.woff2
+        ├── poppins-bold-demo.html
+        ├── poppins-bold-webfont.woff
+        ├── poppins-bold-webfont.woff2
+        ├── poppins-medium-demo.html
+        ├── poppins-medium-webfont.woff
+        ├── poppins-medium-webfont.woff2
+        ├── poppins-semibold-demo.html
+        ├── poppins-semibold-webfont.woff
+        └── poppins-semibold-webfont.woff2
+
 
 ## Usage
 
@@ -69,3 +73,5 @@ To view the website:
 ## Live URL
 
 [View Live Website](https://example.com)
+
+
