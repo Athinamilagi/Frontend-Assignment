@@ -40,7 +40,11 @@
 /* Body Styles */
 body {
   line-height: 1.2;
+<<<<<<< HEAD
   min-height: 280vh;
+=======
+  min-height: 270vh;
+>>>>>>> ccd7ebc2a6158544f254ff3408dc6e9890f7de69
   position: relative;
   font-family: "poppinsmedium";
 }
