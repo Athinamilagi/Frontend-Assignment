@@ -155,15 +155,35 @@ nav .hamburger_menu {
   text-align: center;
   color: #fff;
   font-size: 5.5rem;
+  overflow: hidden;
+  white-space: nowrap;
 }
-.masthead .banner-text .subheading {
+.masthead .banner-text .heading {
+  animation: showup 7s ;
+}
+.masthead .banner-text .heading {
+  animation: reveal 7s ;
+}
+.masthead .banner-text .subheading{
+  animation: showup 7s ;
+}
+.masthead .banner-text .subheading{
+  animation: reveal 7s ;
+}
+.masthead .banner-text .subheading{
   letter-spacing: 7px;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
   font-size: 5.5rem;
+  overflow: hidden;
+  white-space: nowrap;
 }
-.masthead .banner-text .subheading span {
+.masthead .banner-text .subheading span{
+  margin-left: 0px;
+  animation: slidein 7s;
+}
+.masthead .banner-text .subheading span{
   letter-spacing: 0;
   color: transparent;
   background-image: linear-gradient(-46deg, #00ffa7, #ffff00);
@@ -690,9 +710,9 @@ footer .wave#wave4 {
   .services .card {
     width: 70%;
   }
-  .services .services-header .prev-btn{
-    width: .5em;
-    height: .3em;
+  .services .services-header .prev-btn {
+    width: 0.5em;
+    height: 0.3em;
   }
 }
 @media (max-width: 480px) {
@@ -726,9 +746,9 @@ footer .wave#wave4 {
     grid-row-start: 1;
     grid-row-end: -1;
   }
-  .services .services-header .prev-btn{
-    width: .5em;
-    height: .1em;
+  .services .services-header .prev-btn {
+    width: 0.5em;
+    height: 0.1em;
   }
   .services .card {
     width: 100%;
@@ -750,5 +770,56 @@ footer .wave#wave4 {
   }
   100% {
     background-position-x: 1000px;
+  }
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 100%;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
   }
 }
