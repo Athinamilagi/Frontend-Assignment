@@ -527,7 +527,7 @@ footer .wave#wave4 {
 
 @media (max-width: 1500px) {
   body {
-    min-height: 280vh;
+    min-height: 425vh;
   }
   nav .nav-container .hamburger_button,
   nav .hamburger_menu {
@@ -553,7 +553,12 @@ footer .wave#wave4 {
     width: 80%;
   }
 }
+
 @media (max-width: 762px) {
+  body {
+    min-height: 440vh;
+  }
+
   nav {
     padding: 10px 0;
   }
@@ -705,7 +710,7 @@ footer .wave#wave4 {
     grid-row-end: -1;
   }
   body {
-    min-height: 660vh;
+    min-height: 680vh;
   }
   .services .card {
     width: 70%;
